@@ -1,0 +1,47 @@
+Last login: Thu Jun 30 17:30:29 on ttys002
+moyoung@moyoung-MacBookAir ~ % ls
+Applications	Documents	Music		Public
+CMC		Downloads	Pictures	Repository
+Desktop		Library		Postman		key
+Develop		Movies		Postman Agent	keys.tar.gz
+moyoung@moyoung-MacBookAir ~ % cd Develop 
+moyoung@moyoung-MacBookAir Develop % ls
+42seoul			ToDo			mbti-station-ios
+OMOS			TodoList		mbtmi-iOS
+RIBs			algorithm		moeum-ios
+RIBs-Test		apollo26-iOS		mooyoung2309
+Tmbtmi-iOS		atracker-iOS
+moyoung@moyoung-MacBookAir Develop % cd atracker-iOS 
+moyoung@moyoung-MacBookAir atracker-iOS % ls
+Atracker	README.md
+moyoung@moyoung-MacBookAir atracker-iOS % vi .gitignore 
+
+
+
+
+
+
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+Pods/
+Secret/
+Secret/*
+Key.swift
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+".gitignore" 94L, 2406B
+
